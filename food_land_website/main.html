@@ -1,0 +1,923 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="home.css">
+
+    <title>FoodielandWebsiteProject</title>
+
+
+</head>
+
+<body class="bg">
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-light container-fluid border-bottom mb-2 px-5 py-3">
+            <a class="navbar-brand" href="#">Foodieland</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Recipes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">About Us</a>
+                    </li>
+                </ul>
+                <div class="social-icons">
+        <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+
+            </div>
+        </nav>
+    </header>
+
+
+    <div class="slider">
+        <div class="slider-item">
+        </div>
+        <div class="slider-item mid d-flex overflow-hidden align-items-center justify-content-between">
+
+            <div class="checked-img">
+                <img src="/public/thumbsup.png" alt="" class="slider-img">
+            </div>
+
+            <div style="width: 500px;">
+                <div class="mx-4 hot-recipe-container ">
+                    <img class="hot-recipe-img" src="/public/hot-recipe-pic.png" alt="">
+                    <h6 class="ms-2 pt-2">Hot recipes</h6>
+                </div>
+                <div class="ps-4 pt-3">
+                    <h1 class="fw-bold pos">Spicy delicious chicken wings</h1>
+                    <p class="banner-font">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqut enim ad minim </p>
+                    <div class="d-flex py-2">
+
+
+                        <div class="d-flex slider-time-name-info align-items-baseline">
+                            <i class="my-auto fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1 banner-font my-auto">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline slider-time-name-info">
+                            <i class="fa fa-black fa-utensils my-auto"></i>
+                            <p class="ms-1 my-auto banner-font">Chicken</p>
+                        </div>
+                    </div>
+                    <div class="py-5"></div>
+                    <div class="d-flex align-items-center justify-content-between pt-5 ">
+                        <div class="d-flex align-items-center">
+                            <div class="d-flex align-items-center justify-content-center user-img">
+                                <img src="/public/person.png" alt="">
+                            </div>
+                            <span class="ms-4 user-info pt-3">
+                                <div class="fw-bold">John Smith</div>
+                                <p class="">15 March 2022</p>
+                            </span>
+                        </div>
+                        <button class="btn btn-dark rounded-4 p-3 ms-4 post-font">View Recipes <i
+                                class="fa fa-play-circle"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="w-50">
+                <img src="/public/recipe1.png" alt="" class="slider-img img-fluid float-end">
+            </div>
+        </div>
+        <div class="slider-item">
+
+        </div>
+    </div>
+
+
+
+    <div>
+        <div class="pt-5 px-5">
+            <div class="category-info d-flex flex-wrap">
+                <h4 class="fw-bold">Categories</h4>
+                <button class="category-btn btn">View Categories</button>
+            </div>
+            <!-- card-->
+            <div class="row pt-5 gy-3">
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card category-breakfast">
+                        <img  src="./public/category1.png" class="category-img mb-4" alt="...">
+                        <h6>Breakfast</h6>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card-lunch category-vegan">
+                        <img src="./public/category2.png" class="category-img mb-4" alt="...">
+                        <h6>Lunch</h6>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card category-meat">
+                        <img src="./public/category3.png" class="category-img mb-4" alt="...">
+                        <h6>Dinner</h6>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card category-dessert">
+                        <img src="./public/category4.png" class="category-img mb-4" alt="...">
+                        <h6>Snacks</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card category-lunch">
+                        <img src="./public/category5.png" class="category-img mb-4" alt="...">
+                        <h6>Meal</h6>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-3 col-sm-6 d-flex">
+                    <div class="mx-auto category-card category-chocolate">
+                        <img src="./public/category6.png" class="category-img mb-4" alt="...">
+                        <h6>Sweets</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="text-center pt-5 container">
+        <h3 class="fw-bold">Simple and tasty Recipes</h3>
+        <p class="mt-3 w-50 mx-auto">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqut enim ad minim </p>
+    </div>
+
+
+
+    <div class="row pt-5 gy-4 px-5 mx-auto">
+        <div class="col-lg-4">
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item1.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 fw-bold w-75">Big and Juicy Wagyu Beef Cheeseburger</h5>
+
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline post-user-font">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 ">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline post-user-font">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1">Snack</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item2.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 fw-bold">Fresh Lime Roasted Salmon with Ginger Sauce</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline post-user-font">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline post-user-font">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1">Fish</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item3.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 fw-bold">Strawberry Oatmeal Pancake with Honey Syrup</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline post-user-font">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline post-user-font">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 ">Breakfast</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item4.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 w-75 fw-bold">Fresh and Healthy Mixed Mayonnaise Salad</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 post-user-font">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 post-user-font">Healthy</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item5.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 w-75 fw-bold">Chicken Meatballs with Cream Cheese</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 post-user-font">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 post-user-font">Meat</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+                <img src="/public/Ads.png" alt="image" class="pg-primary img-fluid">
+        </div>
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item6.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 w-75 fw-bold">Fruity Pancake with Orange & Blueberry</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 post-user-font">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 post-user-font">Sweet</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item7.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 w-75 fw-bold">The Best Easy One Pot Chicken and Rice</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 post-user-font">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 post-user-font">Snack</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="col-lg-4">
+
+
+            <div class="item-card p-2">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-regular fa-heart"></i>
+                    </div>
+                </div>
+                <img src="/public/recipes-item8.png" alt="image" class="recipe-img">
+                <h5 class="mt-3 w-75 fw-bold">The Creamiest Creamy Chicken and Bacon Pasta</h5>
+
+                <div class="d-flex mt-4">
+
+                    <div class="d-flex align-items-baseline">
+                        <i class="fa-solid fa-stopwatch"></i>
+                        <p class="ms-1 post-user-font">30 Minutes</p>
+                    </div>
+                    <div class="d-flex ms-3 align-items-baseline">
+                        <i class="fa-solid fa-utensils"></i>
+                        <p class="ms-1 post-user-font">Noodles</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="pt-5 d-flex flex-wrap-reverse justify-content-between align-items-center px-5 overflow-hidden">
+        <div class="left">
+            <h1 class="fw-bold">Everyone can be a
+                chef in their own kitchen</h1>
+            <p class=" mt-4 w-75">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor incididunt
+                ut labore et dolore magna aliqut enim ad minim </p>
+            <button class="btn rounded-3 mt-5 btn-dark">Learn more</button>
+        </div>
+        <div class="overflow-hidden">
+            <img src="./public/lerarn-more-chef-right.png" alt="image" class="learn-more-img col-sm-12 img-fluid">
+        </div>
+    </div>
+
+
+
+    <div>
+
+        <div class="pt-5 container text-center ">
+
+            <h2 class="fw-bold">Check out @foodieland on Instagram</h2>
+            <p class="mx-auto mt-2 w-50">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqut enim ad minim </p>
+
+        </div>
+
+        <div class="post mt-5">
+
+            <div class="row px-5 mx-auto gy-4">
+
+                <div class="col-lg-3">
+                    <div class="card p-2">
+                        <div class="d-flex align-items-center">
+
+                            <div class="post-number">1/3</div>
+
+                            <img src="/public/Cooking Template/Post/Oval.png" alt="" class="img-fluid">
+                            <span class="post-font ms-2">
+                                <div class="fw-bold">Foodieland. <img alt="image" style="width: 12px; height: 12px;margin-bottom: 3px;" src="./public/tick-symbol/Post/Official Icon.png" /></div>
+                                <div>Tokyo,Japan</div>
+                            </span>
+                            <button class="btn ms-auto">∙∙∙</button>
+                        </div>
+                        <img src="./public/post-image1.png" alt="image" class="post-img">
+                        <div class="d-flex  py-2 align-items-center">
+                            <i class="fa-regular me-2 fa-heart"></i>
+                            <i class="fa-regular me-2 fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+
+                            <div class="d-flex align-items-center mx-auto">
+
+                                <div class="dot-blue me-1"></div>
+                                <div class="dot-white me-1"></div>
+                                <div class="dot-white"></div>
+
+                            </div>
+                            <i class="fa-regular fa-bookmark"></i>
+
+                        </div>
+
+                        <div class="post-user-font">
+                            <img src="/public/like-user/Post/Oval.png" alt="">
+                            <span>Liked by <span class="fw-bold">craig_love</span> and <span
+                                    class="fw-bold">44,686</span></span>
+                        </div>
+                        <div class="post-user-font"><span class="fw-bold">Foodieland</span>. The vegetables dishes need
+                            to
+                            have certain vitamin for those people
+                        </div>
+
+                        <p class="text-muted py-2 post-font">19 September</p>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card p-2">
+                        <div class="d-flex align-items-center">
+
+                            <div class="post-number">1/3</div>
+
+                            <img src="/public/Cooking Template/Post/Oval.png" alt="" class="img-fluid">
+                            <span class="post-font ms-2">
+                                <div class="fw-bold">Foodieland. <img alt="image" style="width: 12px; height: 12px;margin-bottom: 3px;" src="./public/tick-symbol/Post/Official Icon.png" /></div>
+                                <div>Tokyo,Japan</div>
+                            </span>
+                            <button class="btn ms-auto">∙∙∙</button>
+                        </div>
+                        <img src="./public/post-image2.png" alt="image" class="post-img">
+                        <div class="d-flex  py-2 align-items-center">
+                            <i class="fa-regular me-2 fa-heart"></i>
+                            <i class="fa-regular me-2 fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <div class="d-flex align-items-center mx-auto">
+
+                                <div class="dot-blue me-1"></div>
+                                <div class="dot-white me-1"></div>
+                                <div class="dot-white"></div>
+
+                            </div>
+
+                            <i class="fa-regular fa-bookmark"></i>
+
+                        </div>
+
+                        <div class="post-user-font">
+                            <img src="/public/like-user/Post/Oval.png" alt="">
+                            <span>Liked by <span class="fw-bold">craig_love</span> and <span
+                                    class="fw-bold">44,686</span></span>
+                        </div>
+                        <div class="post-user-font"><span class="fw-bold">Foodieland</span>. Sweet food can bring
+                            someone into happiness as long as they don’t eat too much
+                        </div>
+
+                        <p class="text-muted py-2 post-font">19 September</p>
+
+
+
+                    </div>
+
+                </div>
+                <div class="col-lg-3">
+                    <div class="card p-2">
+                        <div class="d-flex align-items-center">
+
+                            <div class="post-number">1/3</div>
+
+                            <img src="/public/Cooking Template/Post/Oval.png" alt="" class="img-fluid">
+                            <span class="post-font ms-2">
+                                <div class="fw-bold">Foodieland. <img alt="image" style="width: 12px; height: 12px;margin-bottom: 3px;" src="./public/tick-symbol/Post/Official Icon.png" /></div>
+                                <div>Tokyo,Japan</div>
+                            </span>
+                            <button class="btn ms-auto">∙∙∙</button>
+                        </div>
+                        <img src="./public/post-image3.png" alt="image" class="post-img">
+                        <div class="d-flex  py-2 align-items-center">
+                            <i class="fa-regular me-2 fa-heart"></i>
+                            <i class="fa-regular me-2 fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <div class="d-flex align-items-center mx-auto">
+
+                                <div class="dot-blue me-1"></div>
+                                <div class="dot-white me-1"></div>
+                                <div class="dot-white"></div>
+
+                            </div>
+
+                            <i class="fa-regular fa-bookmark"></i>
+
+                        </div>
+
+                        <div class="post-user-font">
+                            <img src="/public/like-user/Post/Oval.png" alt="">
+                            <span>Liked by <span class="fw-bold">craig_love</span> and <span
+                                    class="fw-bold">44,686</span></span>
+                        </div>
+                        <div class="post-user-font"><span class="fw-bold">Foodieland</span>. What are you doing before
+                            start cooking? prepare the tools or ingredients?
+                        </div>
+
+                        <p class="text-muted py-2 post-font">19 September</p>
+
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-3">
+                    <div class="card p-2">
+                        <div class="d-flex align-items-center">
+
+                            <div class="post-number">1/3</div>
+
+                            <img src="/public/Cooking Template/Post/Oval.png" alt="" class="img-fluid">
+                            <span class="post-font ms-2">
+                                <div class="fw-bold">Foodieland. <img alt="image" style="width: 12px; height: 12px;margin-bottom: 3px;" src="./public/tick-symbol/Post/Official Icon.png" /></div>
+                                <div>Tokyo,Japan</div>
+                            </span>
+                            <button class="btn ms-auto">∙∙∙</button>
+                        </div>
+                        <img src="./public/post-image4.png" alt="image" class="post-img">
+                        <div class="d-flex  py-2 align-items-center">
+                            <i class="fa-regular me-2 fa-heart"></i>
+                            <i class="fa-regular me-2 fa-comment"></i>
+                            <i class="fa-regular fa-paper-plane"></i>
+                            <div class="d-flex align-items-center mx-auto">
+
+                                <div class="dot-blue me-1"></div>
+                                <div class="dot-white me-1"></div>
+                                <div class="dot-white"></div>
+
+                            </div>
+
+                            <i class="fa-regular fa-bookmark"></i>
+
+                        </div>
+
+                        <div class="post-user-font">
+                            <img src="/public/like-user/Post/Oval.png" alt="">
+                            <span>Liked by <span class="fw-bold">craig_love</span> and <span
+                                    class="fw-bold">44,686</span></span>
+                        </div>
+                        <div class="post-user-font"><span class="fw-bold">Foodieland</span>. Steak never be wrong, it’s
+                            suitable for you who want romantic dinner
+                        </div>
+
+                        <p class="text-muted py-2 post-font">19 September</p>
+
+
+
+                    </div>
+
+                </div>
+
+
+
+
+            </div>
+
+            <div class="mx-auto d-flex justify-content-center mt-5">
+                <button class="btn p-3 rounded-4 btn-dark">View Our Instagram <i><i
+                            class="fa fa-brands fa-instagram"></i></i></button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <div class="bg-light px-5">
+
+        <div class="pt-5 d-flex flex-wrap justify-content-between px-3">
+
+            <h2 class="recipe-info-left fw-bold">Try this delicious recipe
+                to make your day</h2>
+            <p class="recipe-info-right">Lorem ipsum dolor sit amet, consectetuipisicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore magna aliqut enim ad minim</p>
+
+        </div>
+
+        <div class="row pt-5 mx-auto">
+
+            <div class="col-lg-3">
+                <div class="container-like bg-primary">
+                    <div class="like-img-container">
+                        <i class="fa-solid fa-heart" style="color: red;"></i>
+                    </div>
+                </div>
+                <div class=" p-2">
+                    <img src="./public/delicious-item1.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Mixed Tropical Fruit Salad with Superfood Boosts</h5>
+                    <div class="d-flex mt-4">
+
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Healthy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item2.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Big and Juicy Wagyu Beef Cheeseburger</h5>
+                    <div class="d-flex mt-4">
+
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Western</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-solid fa-heart" style="color: red;"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item3.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Healthy Japanese Fried Rice with Asparagus</h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Healthy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item4.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">
+                        Cauliflower Walnut Vegetarian Taco Meat</h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Eastern</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item5.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Rainbow Chicken Salad with Almond Honey Mustard Dressing</h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Healthy</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-solid fa-heart" style="color: red;"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item6.png" class="delicious-img" alt="image"><h5 class="mt-3 fw-bold delicious-font">Barbeque Spicy Sandwiches with Chips </h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Snack</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item7.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Firecracker Vegan Lettuce Wraps - Spicy! </h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Seafood</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-3">
+                <div class=" p-2">
+                    <div class="container-like bg-primary">
+                        <div class="like-img-container">
+                            <i class="fa-solid fa-heart" style="color: red;"></i>
+                        </div>
+                    </div>
+                    <img src="./public/delicious-item8.png" class="delicious-img" alt="image">
+                    <h5 class="mt-3 fw-bold delicious-font">Chicken Ramen Soup with Mushroom </h5>
+                    <div class="d-flex mt-4">
+                        <div class="d-flex align-items-baseline post-user-font">
+                            <i class="fa fa-black text-sm fa-stopwatch"></i>
+                            <p class="ms-1">30 Minutes</p>
+                        </div>
+                        <div class="d-flex ms-3 align-items-baseline post-user-font">
+                            <i class="fa fa-black fa-utensils"></i>
+                            <p class="ms-1">Japanese</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+    <div class="my-5 mx-5">
+        <div class="rounded-4 p-5 inbox-container">
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-8 mx-auto text-center">
+                    <h2 class="fw-bold mb-3">Deliciousness to your inbox</h2>
+                    <p class="text-muted mb-4 w-50 mx-auto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                    </p>
+
+
+                    <form
+                        class="mx-auto mt-5 d-flex col-10 col-sm-6 fs-5 flex-column flex-md-row justify-content-center bg-light rounded-4 p-2">
+                        <input type="email" name="inbox" class="form-control bg-light"
+                            placeholder="Your email address..." required>
+                        <button type="submit" class="btn btn-dark px-4">Subscribe</button>
+                    </form>
+
+
+                </div>
+
+            </div>
+
+            <img src="/public/inbox-left.png" class="inbox-img-left" alt="">
+            <img src="/public/inbox-right.png" class="inbox-img-right" alt="">
+        </div>
+
+    </div>
+
+    <div class="pt-5 px-5 d-flex justify-content-between flex-wrap">
+
+        <div class="">
+            <div class="navbar-brand">Foodieland</div>
+            <p class="text-md">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.</p>
+        </div>
+
+        <div class="d-flex flex-wrap justify-content-between link">
+
+            <a href="" class="text-dark text-decoration-none nav-link">
+                Blog
+            </a>
+            <a href="" class="text-dark text-decoration-none nav-link">
+                Recipes
+            </a>
+            <a href="" class="text-dark text-decoration-none nav-link">
+                Contact
+            </a>
+            <a href="" class="text-dark text-decoration-none nav-link">
+                About us
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <footer class="border-top px-5 py-5 d-flex justify-content-center flex-wrap">
+
+
+        <div class="me-auto ms-auto">
+            &copy;Foodieland 2022.Powered by <span class="text-danger">Webflow</span>
+        </div>
+
+
+        <div class="d-flex justify-content-between contact-footer">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.min.js"
+        integrity="sha384-7qAoOXltbVP82dhxHAUje59V5r2YsVfBafyUDxEdApLPmcdhBPg1DKg1ERo0BZlK"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
